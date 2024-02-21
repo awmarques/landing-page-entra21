@@ -14,26 +14,43 @@ header{
     padding-bottom: 3px;
 }
 .imgheader{
-    width: 350px;
-    margin: 3px;
-    background-color: gainsboro;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#img-header{
+    width: 160px;
+}
+
+.section-descricao{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}    
+}
+
+.section-descricao p {
+    text-align: center;
+    width: 60%;
+   
+}
 
 .lista{
     list-style: none;
 }
-.section-descricao{
-    text-align: center;
+
+.section-lista{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-formulario{
-    text-align: center;
-}
-
-footer{
-    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }

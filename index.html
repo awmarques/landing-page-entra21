@@ -9,15 +9,16 @@
 </head>
 <body>
     <header>
-        <h1>Pay Now - Carteira Digital</h1>
+        <h1>Pay Now - Digital Wallet</h1>
     </header>
-    <div class="imgheader">
-        <img src="wallet.svg" id="img-header"/>
-    </div>
+    <section class="imgheader">
+        <img src="ewalllet.png" id="img-header" alt="wallet" />
+    </section>
     <section class="section-descricao">
-        <p>
-            Descubra a liberdade financeira com nossa inovadora carteira digital! Combinando conveniência e segurança em um design elegante, nossa carteira digital oferece uma experiência sem igual para gerenciar seu dinheiro de forma inteligente. Pague contas, faça compras online, envie e receba pagamentos com facilidade, tudo ao alcance de seus dedos. Com recursos avançados de criptografia, sua privacidade e segurança são prioridade máxima. Experimente a próxima geração de gestão financeira com nossa carteira digital - onde simplicidade encontra tecnologia de ponta!
+        <p>Descubra a liberdade financeira com nossa inovadora carteira digital! Combinando conveniência e segurança em um design elegante, nossa carteira digital oferece uma experiência sem igual para gerenciar seu dinheiro de forma inteligente. Pague contas, faça compras online, envie e receba pagamentos com facilidade, tudo ao alcance de seus dedos. Com recursos avançados de criptografia, sua privacidade e segurança são prioridade máxima. Experimente a próxima geração de gestão financeira com nossa carteira digital - onde simplicidade encontra tecnologia de ponta!
         </p>
+    </section>
+    <section class="section-lista">
         <ul class="lista">
             <li><em><b>Conveniência:</b></em> Acesso fácil e rápido ao dinheiro em qualquer lugar.</li>
             <li><em><b>Facilidade de uso:</b></em> Interfaces simples e intuitivas.</li>
@@ -29,7 +30,9 @@
     <section class="section-formulario">
         <h3>Abra sua conta agora e ganhe R$ 100 </h3>
         <form action="#">
-            <input type="text"  />
+            <input type="text" name="nome" placeholder="Digite seu nome" />
+
+            <input type="text" name="email" placeholder="Digite seu email" />
 
             <button type="button" class="btn btn-success" onclick="validarFormulario()">Registrar</button>
         </form>
