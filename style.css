@@ -1,12 +1,31 @@
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
 header{
+    background-color: cadetblue;
+    margin: 10px 10px; 
     text-align: center;
+    border-radius: 4px;
+    padding-bottom: 3px;
 }
-
-.section-img-header{
-    border-image: stretch;
+.imgheader{
+    width: 350px;
+    margin: 3px;
+    background-color: gainsboro;
     display: flex;
-}
+    justify-content: center;
+    align-items: center;
+    
+}    
 
+.lista{
+    list-style: none;
+}
 .section-descricao{
     text-align: center;
 }
