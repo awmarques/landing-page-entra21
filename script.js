@@ -1,3 +1,5 @@
 function validarFormulario(){
-    alert("Dados enviados, em breve entraremos em contato!");
+    let nome = document.getElementById('nome').value;
+    let email = document.getElementById('email').value;
+    alert("Olá," + nome + " em breve entraremos em contato pelo e-mail:" + email);
 }
